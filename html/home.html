@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ASM1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/home.css" />
+    <script src="/js/home.js"></script>
+  </head>
+
+  <body ng-app="myApp" ng-controller="myCtrl1">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="/Img/LogoAsus.png"
+            width="100%"
+            style="max-width: 200px"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          style="margin-left: 55%"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex nav-home">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Product</a
+                >
+                <div class="nav-item2">
+                  <div class="d-flex flex-column">
+                    <a href="#"><span>Industrial Motherboard</span></a>
+                    <a href="#"><span>Intelligent Edge Computer</span></a>
+                    <a href="#"><span>Single Board Computer</span></a>
+                    <a href="#"><span>Tinker Board Series</span></a>
+                    <a href="#"><span>AI Accelerator</span></a>
+                    <a href="#"><span>AI Software</span></a>
+                    <a href="#"><span>Industrial Accessory</span></a>
+                    <a href="#"><span>Coral</span></a>
+                    <a href="#"><span>COM Express Module</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Solutions</a
+                >
+                <div class="nav-item2">
+                  <div class="d-flex flex-column">
+                    <a href="#"><span>ALPR Egder AI Dev Kit</span></a>
+                    <a href="#"><span>AI Security Solution</span></a>
+                    <a href="#"><span>ASUS IoT Cloud Console</span></a>
+                    <a href="#"><span>Digital Signage Solution</span></a>
+                    <a href="#"><span>Edge AI Solution</span></a>
+                    <a href="#"><span>Face Recognition Dev Kit</span></a>
+                    <a href="#"><span>Industrial Android FOTA</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Industries</a
+                >
+                <div class="nav-item2">
+                  <div class="d-flex flex-column">
+                    <a href="#"><span>Automation</span></a>
+                    <a href="#"><span>Gaming</span></a>
+                    <a href="#"><span>Healthcare</span></a>
+                    <a href="#"><span>Hospitality</span></a>
+                    <a href="#"><span>Lifestyle &amp; Home</span></a>
+                    <a href="#"><span>Retail</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Succes Stories</a
+                >
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >News & Events</a
+                >
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Support</a
+                >
+                <div class="nav-item2">
+                  <div class="d-flex flex-column">
+                    <a href="#"><span>RMA</span></a>
+                    <a href="#"><span>Publications</span></a>
+                    <a href="#"><span>Product Security Advisory</span></a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item nav-item1 position-relative">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+      <div class="carousel-indicators mb-0 m-auto">
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="7"
+          aria-label="Slide 8"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="8"
+          aria-label="Slide 9"
+        ></button>
+        <button
+          type="button"
+          style="
+            height: 10px;
+            width: 10px;
+            background-color: black;
+            border-radius: 50%;
+            margin-right: 10px;
+          "
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="9"
+          aria-label="Slide 10"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Img/slide10.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide5.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide6.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide7.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide8.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/slide9.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <div class="container container1 mt-5" style="z-index: 1">
+      <div
+        class="m-auto"
+        style="border: 5px solid orange; max-width: 100px"
+      ></div>
+      <h1 class="mt-3">Explore different industries</h1>
+      <div class="row mt-5 g-3">
+        <div class="col-sm-4 hover1 position-relative" ng-repeat="x in products.product" >
+          <a href="#">
+            <p class="title-product" style="color: white">{{x.title}}</p>
+            <div class="bg-product"></div>
+            <img src="{{x.img}}" width="100%" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid container2"
+      style="
+        background-image: url(/Img/bg-container2.png);
+        padding: 200px 0 200px;
+      "
+    >
+      <div class="pt-5">
+        <div
+          class="m-auto"
+          style="border: 5px solid orange; max-width: 100px"
+        ></div>
+        <h1 class="mt-3">Latest News</h1>
+      </div>
+      <div class="container px-4">
+        <div class="row mt-4 g-5 ">
+          <div class="col-sm-6 d-none d-lg-block" ng-repeat="x in products.News">
+            <a href="#" style="text-decoration: none">
+              <div class="row">
+                <div class="col-sm-2 p-0 position-relative">
+                  <img src="/Img/Date.png" width="100%" alt="" />
+                  <div class="date-tiem w-100">
+                    <p style="line-height: normal">{{x.yy_mm}}</p>
+                    <p
+                      style="
+                        line-height: 10px;
+                        font-size: 50px;
+                        font-weight: bold;
+                      "
+                    >
+                      {{x.day}}
+                    </p>
+                  </div>
+                </div>
+                <div class="col-sm-10 content">
+                  <p>{{x.title}}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="mt-5 text-center">
+          <button type="button" class="btn btn_more">MORE</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid container3">
+      <div class="pt-5">
+        <div
+          class="m-auto"
+          style="border: 5px solid orange; max-width: 100px"
+        ></div>
+        <h1 class="mt-3">Product Category</h1>
+      </div>
+      <div class="container mt-4">
+        <div id="carouselExample" class="p-0 m-0 carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/Industrial.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>Industrial Motherboard</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/Intelligent.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>Intelligent Edge Computer</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/SingleBoard.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>Single Board Computer</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/TinkerBoard.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>Tinker Board Series</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/AIAccelerator.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>AI Accelerator</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/AISoftware.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>AI Software</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img
+                      src="/Img/IndustrialAcc.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <p>Industrial<br />Accessory</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img src="/Img/Coral.png" class="d-block w-100" alt="..." />
+                    <p>Coral</p>
+                  </a>
+                </div>
+                <div class="col-lg-2">
+                  <a href="#">
+                    <img src="/Img/COM.png" class="d-block w-100" alt="..." />
+                    <p>COM Express <br />Module</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            style="
+              width: 30px;
+              background: linear-gradient(
+                90deg,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(255, 255, 255, 0) 80%
+              );
+            "
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              style="margin-right: 5px"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            style="
+              width: 30px;
+              background: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 20%,
+                rgba(0, 0, 0, 0.5) 80%
+              );
+            "
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              style="margin-left: 5px"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer mt-5">
+      <div class="container">
+        <div class="row justify-content-between" style="padding-top: 200px">
+          <div class="col-sm-5">
+            <h1 style="border-left: 5px solid orange; padding-left: 10px">
+              About us
+            </h1>
+            <p>
+              ASUS IoT is a sub-brand of ASUS dedicated to the creation of
+              incredible solutions in the fields of AI and IoT. Our mission is
+              to become a trusted provider of embedded systems and partner to
+              the wider AIoT solutions ecosystem. ASUS strives to deliver
+              best-in-class products and services across diverse vertical
+              markets, and to partner with customers in the development of fully
+              integrated and rapid time-to-market applications that drive
+              efficiency - providing convenient, efficient and secure living and
+              working environments for people everywhere.
+            </p>
+          </div>
+          <div class="col-sm-2 text-center pt-5">
+            <a href="#">
+              <img
+                src="/Img/InquiryForm.png"
+                width="100%"
+                style="max-width: 100px"
+                class="mb-4"
+                alt=""
+              />
+              <p style="color: white">Inquiry Form</p>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-2">
+            <p style="font-size: 20px">Products</p>
+            <a href="#"><p>Industrial Motherboard</p></a>
+            <a href="#"><p>Intelligent Edge Computer</p></a>
+            <a href="#"><p>Single Board Computer</p></a>
+            <a href="#"><p>Tinker Board Series</p></a>
+            <a href="#"><p>AI Accelerator</p></a>
+            <a href="#"><p>AI Software</p></a>
+            <a href="#"><p>Industrial Accessory</p></a>
+            <a href="#"><p>Coral</p></a>
+            <a href="#"><p>COM Express Module</p></a>
+          </div>
+          <div class="col-sm-2">
+            <p style="font-size: 20px">Automation</p>
+            <a href="#"><p>Gaming</p></a>
+            <a href="#"><p>Healthcare</p></a>
+            <a href="#"><p>Hospitality</p></a>
+            <a href="#"><p>Lifestyle & Home</p></a>
+            <a href="#"><p>Retail</p></a>
+          </div>
+          <div class="col-sm-2">
+            <p style="font-size: 20px">Solutions</p>
+            <a href="#"><p>ALPR Edge AI Dev Kit</p></a>
+            <a href="#"><p>AI Security Solution</p></a>
+            <a href="#"><p>ASUS IoT Cloud Console</p></a>
+            <a href="#"><p>Digital Signage Solution</p></a>
+            <a href="#"><p>Edge AI Solution</p></a>
+            <a href="#"><p>Face Recognition Dev Kit</p></a>
+            <a href="#"><p>Industrial Android FOTA</p></a>
+          </div>
+          <div class="col-sm-2">
+            <p style="font-size: 20px">Support</p>
+            <a href="#"><p>RMA</p></a>
+            <a href="#"><p>Publications</p></a>
+            <a href="#"><p>Product Security Advisory</p></a>
+            <a href="#"
+              ><p class="pt-4" style="color: white; font-size: 20px">
+                Success Stories >
+              </p></a
+            >
+            <a href="#"
+              ><p class="pt-4" style="color: white; font-size: 20px">
+                News & Events >
+              </p></a
+            >
+          </div>
+          <div class="col-sm-2">
+            <p style="font-size: 20px">About us</p>
+            <a href="#"><p>ASUS IoT</p></a>
+            <a href="#"><p>Video</p></a>
+            <p style="font-size: 20px">Contact us</p>
+            <a href="#"><p>Inquiry</p></a>
+            <a href="#"><p>Partners</p></a>
+            <a href="#"><p>Security Advisory</p></a>
+          </div>
+          <div class="col-sm-2">
+            <p style="font-size: 20px">Follow ASUS IoT</p>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="42"
+                height="42"
+                viewBox="0 0 42 42"
+              >
+                <defs>
+                  <path id="a" d="M0 0h19.78v19.512H0z"></path>
+                </defs>
+                <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                  <circle cx="20" cy="20" r="20.5" stroke="#fff"></circle>
+                  <g transform="translate(10 10)">
+                    <mask id="b" fill="#fff">
+                      <use xlink:href="#a"></use>
+                    </mask>
+                    <path
+                      fill="white"
+                      d="M4.422 2.211a2.21 2.21 0 1 1-4.422 0 2.21 2.21 0 0 1 4.422 0zM0 19.512h4.294V6.594H0v12.918zm19.78-7.408v7.408h-4.295V12.6c0-1.735-.62-2.92-2.176-2.92-1.187 0-1.891.798-2.203 1.57-.112.277-.142.66-.142 1.047v7.215H6.67s.057-11.706 0-12.918h4.295v1.83c-.009.016-.02.029-.029.043h.03v-.043c.57-.878 1.588-2.133 3.87-2.133 2.826 0 4.945 1.846 4.945 5.813z"
+                      mask="url(#b)"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="45"
+                height="45"
+                fill="none"
+                viewBox="0 0 42 42"
+              >
+                <path
+                  stroke="white"
+                  stroke-miterlimit="10"
+                  stroke-width=".991"
+                  d="M39.505 20c0 10.772-8.733 19.505-19.505 19.505C9.228 39.505.495 30.771.495 20 .495 9.228 9.229.495 20 .495 30.772.495 39.505 9.229 39.505 20z"
+                ></path>
+                <path
+                  fill="white"
+                  d="M25.821 23.465c-.36 0-.539.279-.539.836v.566h1.078V24.3c0-.557-.18-.836-.539-.836z"
+                ></path>
+                <path
+                  fill="white"
+                  d="M28.445 20.379c-.095-.468-.336-.894-.689-1.216-.337-.319-.767-.522-1.227-.578-4.423-.327-8.864-.327-13.287 0-.463.054-.896.257-1.234.578-.35.325-.592.75-.694 1.216-.246 1.42-.35 2.86-.312 4.3-.041 1.44.063 2.88.312 4.3.095.469.336.895.688 1.218.336.319.768.517 1.229.565 4.427.345 8.873.345 13.3 0 .459-.047.89-.245 1.222-.565.352-.325.596-.75.7-1.218.245-1.42.349-2.86.311-4.3.038-1.44-.069-2.881-.32-4.3zm-12.376 1.242h-1.282v7h-1.2v-7h-1.258v-1.155h3.738l.002 1.155zm3.234 7h-1.066v-.664c-.139.204-.32.377-.53.506-.211.129-.447.212-.692.243-.15.018-.303-.018-.43-.1-.127-.084-.22-.21-.264-.355-.077-.294-.11-.597-.1-.9v-4.807h1.066v4.476c-.005.143 0 .287.012.43.024.172.108.258.252.258.215 0 .443-.171.682-.516v-4.647h1.066l.004 6.076zm4.073-1.82c.019.413-.017.827-.107 1.23-.038.196-.144.371-.3.495-.157.124-.352.188-.551.18-.225-.02-.442-.091-.635-.208-.193-.117-.357-.277-.48-.467v.59H20.24V20.47h1.065v2.667c.12-.19.285-.349.478-.464.194-.115.411-.183.636-.2.2-.005.397.06.553.187.157.127.262.305.298.503.09.399.127.808.107 1.216v2.422zm4.05-1.008h-2.145v1.07c0 .565.184.848.551.848.122.004.24-.04.33-.122.09-.083.143-.198.149-.32.023-.249.031-.5.024-.749h1.09v.159c.008.238 0 .476-.024.713-.03.238-.116.466-.252.664-.14.212-.332.384-.56.499-.226.114-.48.166-.733.152-.25.01-.5-.042-.726-.15-.226-.11-.421-.273-.569-.476-.264-.427-.386-.927-.347-1.427v-2.127c-.038-.498.079-.997.335-1.426.15-.195.344-.353.566-.461.22-.109.464-.165.71-.165.247 0 .49.056.711.165.222.108.415.266.566.461.247.433.36.93.323 1.426l.001 1.266z"
+                ></path>
+                <path
+                  fill="white"
+                  d="M21.843 23.465c-.104.006-.205.033-.297.08-.093.046-.175.11-.242.19v3.7c.067.08.149.144.242.19.092.047.194.074.297.08.311 0 .467-.274.467-.823v-2.594c0-.549-.156-.823-.467-.823zM15.376 13.9v3.332h1.2V13.9L18.025 9h-1.222l-.814 3.232L15.139 9h-1.271c.224.688.484 1.455.779 2.3.298.85.541 1.719.729 2.6zM19.626 17.319c.248.012.494-.04.717-.15.222-.109.413-.273.554-.477.258-.438.375-.944.335-1.45V13.09c.04-.502-.078-1.005-.335-1.438-.148-.195-.339-.353-.558-.462-.22-.109-.461-.165-.706-.165-.245 0-.486.056-.706.165-.219.109-.41.267-.558.462-.257.433-.374.936-.335 1.438v2.152c-.038.506.08 1.012.335 1.45.14.201.33.364.549.474.22.11.463.162.708.153zm-.515-4.451c0-.565.172-.848.515-.848s.515.283.515.848v2.582c0 .574-.172.86-.515.86s-.515-.287-.515-.86v-2.582zM22.922 17.319c.249-.03.488-.113.701-.245.213-.132.395-.309.532-.518v.677h1.09v-6.134h-1.09v4.684c-.24.352-.467.528-.682.528-.144 0-.228-.089-.252-.27-.013-.143-.017-.287-.012-.43v-4.512h-1.09v4.843c-.011.31.022.621.1.922.047.145.143.269.27.352.129.083.281.119.433.103z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#"
+              ><p class="pt-4" style="color: white; font-size: 16px">
+                ASUS Global Website
+              </p></a
+            >
+            <a href="#"
+              ><p class="pt-2" style="color: white; font-size: 16px">
+                Privacy Policy
+              </p></a
+            >
+            <a href="#"
+              ><p class="pt-2" style="color: white; font-size: 16px">
+                Terms of Use Notice
+              </p></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer2">
+      <p>© ASUSTeK Computer Inc. All rights reserved.</p>
+    </div>
+    <script>
+      var app = angular.module("myApp", []);
+      app.controller("myCtrl1", function ($scope, $http) {
+        $scope.products = [];
+        $http.get("/js/LastestNew.json").then(function (response) {
+          $scope.products = response.data;
+          console.log(response.data);
+        });
+      });
+    </script>
+  </body>
+</html>

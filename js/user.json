@@ -1,0 +1,20 @@
+[
+    {
+        "userName":"Duong Nhut Tan",
+        "birthday":"30-11-2003",
+        "email":"tanduong969@gmail.com",
+        "password":"123"
+    },
+    {
+        "userName":"Duong Nguyen Minh Thong",
+        "birthday":"20-3-2003",
+        "email":"dnmthong@gmail.com",
+        "password":"123"
+    },
+    {
+        "userName":"Nguyen Trong Nghia",
+        "birthday":"20-11-2002",
+        "email":"ntnghia@gmail.com",
+        "password":"123"
+    }
+]

@@ -1,0 +1,141 @@
+.nav-home {
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-home ul li {
+  margin-right: 20px;
+}
+.nav-item2 {
+  display: none;
+  position: absolute;
+  background-color: #185e72;
+  width: 300px;
+  z-index: 999;
+  padding: 20px 30px;
+  top: 100%;
+  left: 10px;
+}
+
+.nav-item2 a {
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  
+}
+.nav-item1:hover .nav-item2 {
+  display: block;
+}
+.nav-item1 a:hover {
+  color: #008fc2;
+  text-decoration: underline 2px orange;
+}
+.container1 h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #195e72;
+  font-size: 50px;
+}
+.container1 p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 999;
+}
+.bg-product {
+  position: absolute;
+  width: 96%;
+  height: 100%;
+  /* background: linear-gradient(90deg, rgba(37,37,36,0.6) 9%, rgba(255, 255, 255, 0) 100%); */
+  background: linear-gradient(
+    90deg,
+    rgba(37, 37, 36, 0.6) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 300%;
+  background-position: right;
+  transition: background-position 1s;
+}
+.title-product {
+  transition: 0.5s;
+}
+.hover1:hover .title-product {
+  transform: translateX(120px) translateY(80px);
+}
+
+.hover1:hover .bg-product {
+  /* background: linear-gradient(90deg, rgba(37,37,36,0.6) 100%, rgba(255, 255, 255, 0) 100%); */
+  background-position: left;
+}
+.container2 {
+  background-size: cover;
+}
+.container2 h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #195e72;
+  font-size: 45px;
+}
+.container2 .date-tiem {
+  position: absolute;
+  top: 20%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.container2 .content p {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.btn_more {
+  width: 100px;
+  color: white;
+  background: #195e72;
+}
+.btn_more:hover {
+  color: #195e72;
+  border: 1px solid #195e72;
+  background: white;
+}
+.container3 h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #195e72;
+  font-size: 45px;
+}
+.container3 a {
+  text-align: center;
+  text-decoration: none;
+}
+.container a p {
+  color: #555550;
+  font-size: 20px;
+}
+.footer {
+  background-image: url(/Img/bg-footer.png);
+  background-size: cover;
+}
+.footer p {
+  color: white;
+}
+.footer h1 {
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  line-height: 15px;
+}
+.footer a p {
+  color: #008fc2;
+  font-size: 15px;
+}
+.footer2 {
+  background-color: #0c233b;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  color: #aeaeae;
+  text-align: center;
+}

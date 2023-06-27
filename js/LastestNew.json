@@ -1,0 +1,166 @@
+{
+    "product":
+    [
+        {
+            "title":"Automation",
+            "img":"/Img/product1.jpg"
+        },
+        {
+            "title":"Healthcare",
+            "img":"/Img/product2.jpg"
+        },
+        {
+            "title":"Hospitality",
+            "img":"/Img/product3.jpg"
+        },
+        {
+            "title":"Retail",
+            "img":"/Img/product4.jpg"
+        },
+        {
+            "title":"Lifestyle & Home",
+            "img":"/Img/product5.jpg"
+        },
+        {
+            "title":"Gaming",
+            "img":"/Img/product6.jpg"
+        }
+    ],
+    "News":
+    [
+        {
+            "yy_mm":"2023/01",
+            "day":"19",
+            "title":"The 1st ASUS AI Demonstration Factory is Ready to Transform Manufacturing"
+        },
+        {
+            "yy_mm":"2023/09",
+            "day":"13",
+            "title":"ASUS IoT and Canonical Partner on Ubuntu Certification for IoT Applications"
+        },
+        {
+            "yy_mm":"2023/01",
+            "day":"19",
+            "title":"The 1st ASUS AI Demonstration Factory is Ready to Transform Manufacturing"
+        },
+        {
+            "yy_mm":"2022/07",
+            "day":"28",
+            "title":"ASUS IoT Announces PE1000N"
+        },
+        {
+            "yy_mm":"2022/06",
+            "day":"20",
+            "title":"ASUS IoT is chosen as the global scale OEM & Business Partner for Coral Products"
+        },
+        {
+            "yy_mm":"2022/06",
+            "day":"16",
+            "title":"ASUS IoT Launches Smart Future Creators Campaign Ahead of Embedded World"
+        },
+        {
+            "yy_mm":"2022/06",
+            "day":"01",
+            "title":"ASUS Tinker Board features excellent computing power and strong supply chain to ..."
+        },
+        {
+            "yy_mm":"2021/12",
+            "day":"13",
+            "title":"ASUS IoT Announces Partnership with Solid State Supplies in United Kingdom"
+        },
+        {
+            "yy_mm":"2021/10",
+            "day":"25",
+            "title":"ASUS IoT Announces N5105I-IM-A Industrial Motherboard"
+        },
+
+        {
+            "yy_mm":"2021/10",
+            "day":"19",
+            "title":"ASUS IoT Showcases New AI Solutions at the Engineering Design Show 2021"
+        },
+        {
+            "yy_mm":"2021/08",
+            "day":"05",
+            "title":"ASUS IoT Announces Collaboration with Tobii to Bring Eye-Tracking Technology to ..."
+        },
+        {
+            "yy_mm":"2021/07",
+            "day":"06",
+            "title":"ASUS IoT Announces Face Recognition Edge AI Dev Kit"
+        },
+        {
+            "yy_mm":"2021/05",
+            "day":"26",
+            "title":"ASUS Announces Smart-Healthcare Webinar, Products and Outlook"
+        },
+        {
+            "yy_mm":"2021/04",
+            "day":"28",
+            "title":"ASUS Announces Azure Percept Collaboration with Microsoft"
+        },
+        {
+            "yy_mm":"2021/04",
+            "day":"14",
+            "title":"ASUS and Intel Join Forces to Build Mobile Medical Carts Supporting Healthcare P..."
+        },
+        {
+            "yy_mm":"2020/11",
+            "day":"19",
+            "title":"ASUS Announces All-New Tinker Board 2 Series"
+        },
+        {
+            "yy_mm":"2020/11",
+            "day":"12",
+            "title":"ASUS Announces High-Performance AI Accelerator Cards"
+        },
+        {
+            "yy_mm":"2020/10",
+            "day":"15",
+            "title":"ASUS Announces Collaboration with Innodisk for Improved IoT Infrastructure Manag..."
+        },
+        {
+            "yy_mm":"2020/07",
+            "day":"09",
+            "title":"ASUS Announces Collaboration with Microsoft for Windows 10 IoT Core"
+        },
+        {
+            "yy_mm":"2020/06",
+            "day":"05",
+            "title":"ASUS AIoT Builds New Smart Manufacturing Solutions to Promote Industrial Upgrade..."
+        },
+
+        {
+            "yy_mm":"2020/05",
+            "day":"22",
+            "title":"ASUS Announces PE100A Edge Compute"
+        },
+        {
+            "yy_mm":"2020/01",
+            "day":"07",
+            "title":"ASUS Announces Tinker Edge T"
+        },
+
+        {
+            "yy_mm":"2020/01",
+            "day":"06",
+            "title":"AnyConnect and ASUS Bring Smarter Camera AI to the Edge"
+        },
+        {
+            "yy_mm":"2019/05",
+            "day":"24",
+            "title":"ASUS Announces Partnership with Coral from Google"
+        },
+        {
+            "yy_mm":"2019/02",
+            "day":"22",
+            "title":"ASUS Introduces New Edge Computer PE200U and AIoT Solutions at Embedded World 20..."
+        },
+        {
+            "yy_mm":"2019/02",
+            "day":"22",
+            "title":"ASUS Introduces New Edge Computer PE200U and AIoT Solutions at Embedded World 20..."
+        }
+        
+    ]
+}

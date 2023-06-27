@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ASM1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/css/gioithieu.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="row">
+      <div>
+        <nav class="row navbar navbar-expand-lg bg-dark " data-bs-theme="dark" >
+          <div class="container-fluit collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill d-inline-block align-text-top" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                  </svg>
+                    Trang chủ
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-square-fill d-inline-block align-text-top" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                    </svg>
+                    Giới thiệu
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-inbound-fill d-inline-block align-text-top" viewBox="0 0 16 16">
+                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+               </svg>
+                    Liên hệ
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-exclamation-fill d-inline-block align-text-top" viewBox="0 0 16 16">
+                      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"/>
+                      <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0Zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                    </svg>
+                    Góp ý
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle-fill d-inline-block align-text-top" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                    </svg>
+                    Hỏi đáp
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #c2bfbf;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle d-inline-block align-text-top" viewBox="0 0 16 16">
+                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg>
+                    Tài khoản
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                    <li><a class="dropdown-item" href="#">Quên mật khẩu</a></li>
+                    <li><a class="dropdown-item" href="#">Đăng ký thành viên</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                    <li><a class="dropdown-item" href="#">Đổi mật khẩu</a></li>
+                    <li><a class="dropdown-item" href="#">Cập nhật hồ sơ</a></li>
+                    <li><hr class="dropdown-divider"></hr></li>
+                    <li><a class="dropdown-item" href="#">Đơn hàng</a></li>
+                    <li><a class="dropdown-item" href="#">Hàng đã mua</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="d-flex navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">English</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #c2bfbf;">Tiếng Việt</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="row p-0 m-0 bg-gioithieu">
+        <div class="col-sm-6"></div>
+        <div class="content col-sm-6">
+          <h1>BUSINESS SOLUTIONS</h1>
+          <p>CO-WELL Asia flexibly utilizes platforms and technologies for business solutions including</p>
+          <button type="button" class="btn btn-secondary">JOIN OUR TEAM</button>
+        </div>
+      </div>
+    </header>
+    <div class="row bg-full pb-5">
+      <div class="container col-10 mt-5 p-5">
+        <div class="row">
+          <div class="col-sm-5 p-0">
+            <img src="/Img/overview.png" class="" style="max-width: 600px; width: 100%;" alt="">
+          </div>
+          <div class="col-sm-7 p-0">
+            <div class="block mt-5 p-5 bg-white block__title">
+              <small>Business</small>
+              <h1>Solutions</h1>
+              <div class="p-3">
+                <div class="block__content">
+                  <div style="border: rgb(13, 168, 117) 1px solid; width: 100px;" class="mb-4"></div>
+                  <p>Maximizing the use of technology for business activities is no longer just a trend, 
+                    it has become a key focus for many executives. Instant information, 
+                    multi-channel reporting, marketing and sales through technology systems help management to make quicker, 
+                    more informed and more transparent governance decisions. At CO-WELL Asia, we bring modern technology to business management 
+                    as we have already achieved for more than 200 customers. Our knowledge of internal business systems along with our 
+                    technological capacity makes us an ideal partner to build internal management systems in any field and at any scale.
+                  </p>
+                  <p>CO-WELL Asia flexibly utilizes platforms and technologies for business solutions including:</p>
+                  <ul>
+                    <li>SharePoint management systems</li>
+                    <li>Cloud integration</li>
+                  </ul>
+                  <button type="button" class="btn btn-outline-dark btn-dcm">DOCUMENT DONWLOAD</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container row m-0 bg-team">
+        <div class="text-center pt-5 mt-5">
+          <small>Our</small>
+          <h1>Certifications</h1>
+          <div style="border: rgb(13, 168, 117) 1px solid; width: 100px;" class="m-auto"></div>
+        </div>
+        <div class="row p-0 m-auto col-10">
+          <div class="col-sm-3 text-center" style="border: white 1px solid;">
+            <h1 class="pt-5">01</h1>
+            <p>MCSM Productivity</p>
+            <img src="/Img/MCSE-Productivity-2019-logo.png" width="100%" alt="" class="pb-5 pt-3">
+          </div>
+          <div class="col-sm-3 text-center" style="border: white 1px solid;">
+            <h1 class="pt-5">05</h1>
+            <p>AWS Certified Solutions <br>Architect - Associate</p>
+            <img src="/Img/AWS-SolArchitect-Associate-500x500.png" width="100%" alt="" class="pb-5">
+          </div>
+          <div class="col-sm-3 text-center" style="border: white 1px solid;">
+            <h1 class="pt-5">01</h1>
+            <p>AWS Certified Solutions<br>Architect - Professional</p>
+            <img src="/Img/AWS-Certified-solutions-architect-Professional-500x500.png" width="100%" alt="" class="pb-5">
+          </div>
+          <div class="col-sm-3 text-center" style="border: white 1px solid;">
+            <h1 class="pt-5">02</h1>
+            <p>AWS Certified SysOps <br>Administrator - Associate</p>
+            <img src="/Img/AWS-SysOps-Associate-500x500.png" width="100%" alt="" class="pb-5">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5 mt-5 mb-5">
+      <div class="row">
+        <div class="col-sm-6 position-relative">
+          <img src="/Img/img-outsourcing.jpg" class="position-absolute" style=" bottom: -5%; left: 10%;"  width="100%" alt="">
+          <img src="/Img/Customer-Benefit_1.jpg" width="100%" alt="">
+        </div>
+        <div class="col-sm-6 block__title pt-5" style="z-index: 999;">
+          <small>Outstanding</small>
+          <h1>Solutions</h1>
+          <div class="p-3">
+            <div class="block__content" style="line-height: 24px;">
+              <div style="border: rgb(13, 168, 117) 1px solid; width: 100px;" class="mb-4"></div>
+                <p>1. Production &amp; product management systems</p>
+                <p>2. Internal information systems</p>
+                <p>3. Human resource management systems</p>
+                <p>4. Information systems and 24/7 reports</p>
+                <p>5. Operational management systems</p>
+                <p>6. SharePoint services:</p>
+                <ul>
+                  <li>SharePoint system development</li>
+                  <li>SharePoint system conversion</li>
+                  <li>Development of custom conversion tools</li>
+                </ul>
+                <p>7. Cloud Integration Services:</p>
+                <ul>
+                  <li>Converting data and projects to Cloud platforms</li>
+                  <li>Creating Cloud environment to deploy projects</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="row bg-secondary">
+      <div class="panel panel-default">
+        <div class="panel-heading text-center pt-2">
+          <p>FPT Polytechnic &copy; 2017. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

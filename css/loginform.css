@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(219, 226, 226);
+}
+.row1{
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px grey;
+}
+img{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.btn1{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #195e72;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn1:hover{
+  background: white;
+  border: 1px solid #195e72;
+  color: #195e72;
+}
+.btn2{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  color: #195e72;
+  font-weight: bold;
+}
+.btn2:hover{
+  background: white;
+  border: 1px solid #195e72;
+  border-radius: 4px;
+}
+.login{
+  display: block;
+}
+.register{
+  display: none;
+}
+.recoverEmail{
+  display: none;
+}
+.recoverForm{
+  display: none;
+}
